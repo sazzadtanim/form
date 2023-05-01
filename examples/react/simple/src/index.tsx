@@ -85,7 +85,7 @@ export default function App() {
             name="hobbies"
             children={(field) => (
               <>
-                <label htmlFor={field.name}>Last Name:</label>
+                <label htmlFor={field.name}>Hobbies:</label>
                 <input name={field.name} {...field.getInputProps()} />
                 <FieldInfo field={field} />
               </>
